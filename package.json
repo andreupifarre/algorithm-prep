@@ -10,10 +10,12 @@
     "preview": "astro preview",
     "astro": "astro"
   },
-  "devDependencies": {
+  "dependencies": {
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/starlight": "^0.36.0",
-    "astro": "^5.13.9",
+    "astro": "^5.13.9"
+  },
+  "devDependencies": {
     "typescript": "^5.4.5"
   }
 }

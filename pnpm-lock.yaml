@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    devDependencies:
+    dependencies:
       '@astrojs/sitemap':
         specifier: ^3.6.0
         version: 3.6.0
@@ -17,6 +17,7 @@ importers:
       astro:
         specifier: ^5.13.9
         version: 5.13.9(rollup@4.52.0)(typescript@5.9.2)
+    devDependencies:
       typescript:
         specifier: ^5.4.5
         version: 5.9.2
