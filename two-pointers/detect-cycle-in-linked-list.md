@@ -69,3 +69,10 @@ List: `1 → 2 → 3 → 4 → 2 (cycle back)`
 Now your turn:\
 👉 Suppose the list is `1 → 2 → 3 → null`.\
 On the first move: where are `slow` and `fast`, and what happens next?
+---
+Answer:
+- After the first move, `slow` is at node 2 and `fast` jumps to node 3.
+- On the next loop check, `fast.next` is `null`, so the loop stops and we conclude there is **no cycle**.
+
+---
+[Go to find-middle-of-linked-list.md](find-middle-of-linked-list.md)
